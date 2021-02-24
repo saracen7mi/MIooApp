@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="     See your bookings ,diagnosis and other
+    important details."/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mybike_recicler_view"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:layout_marginTop="19dp" />
+    <Button
+        android:id="@+id/mybike_button"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/create_acount"
+        android:text="Add bike"
+        android:textColor="#F0F6F6"/>
+
+    </LinearLayout>

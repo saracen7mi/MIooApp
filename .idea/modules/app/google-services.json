@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "306574258322",
+    "firebase_url": "https://mioo-731a9-default-rtdb.firebaseio.com",
+    "project_id": "mioo-731a9",
+    "storage_bucket": "mioo-731a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306574258322:android:01f698c6838c32b2c8f64b",
+        "android_client_info": {
+          "package_name": "com.example.miooapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306574258322-o672jqf4ojb4etrkvdririgluc26srbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miooapp",
+            "certificate_hash": "1efb36bba9b06a6faff6159d520c330a03031bf0"
+          }
+        },
+        {
+          "client_id": "306574258322-e9ajudhevqa16ckblkq77ha28cgomhmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMSlZxuXEwRHrUKVc587lHKnPKI49jm58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306574258322-e9ajudhevqa16ckblkq77ha28cgomhmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

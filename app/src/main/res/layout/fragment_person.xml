@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.PersonFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+
+
+    <LinearLayout
+        android:id="@+id/person_one"
+        android:layout_width="match_parent"
+        android:layout_height="91dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_card_giftcard_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="       Service agrement
+                                                                            select or cancel an agrement" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/person_two"
+        android:layout_width="match_parent"
+        android:layout_height="81dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_directions_bike_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="My Bikes
+                                                                            add a new bike" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/person_tree"
+        android:layout_width="match_parent"
+        android:layout_height="84dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_contacts_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="       Contacts
+                                                     " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/person_four"
+        android:layout_width="match_parent"
+        android:layout_height="88dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_language_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="       Language
+                                                " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/five"
+        android:layout_width="match_parent"
+        android:layout_height="96dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_call_missed_outgoing_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="       Log  out
+                                                " />
+    </LinearLayout>
+
+</LinearLayout>

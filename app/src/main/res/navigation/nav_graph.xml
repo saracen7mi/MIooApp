@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bookFragment">
+
+    <fragment
+        android:id="@+id/bookFragment"
+        android:name="com.example.miooapp.fragment.BookFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/fragment_book" >
+        <action
+            android:id="@+id/action_bookFragment_to_biciklFragment"
+            app:destination="@id/biciklFragment" />
+        <action
+            android:id="@+id/action_bookFragment_to_selectedBiciklFragment"
+            app:destination="@id/selectedBiciklFragment" />
+        <action
+            android:id="@+id/action_bookFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_bookFragment_to_selectedBiciklFragment2"
+            app:destination="@id/selectedBiciklFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/biciklFragment"
+        android:name="com.example.miooapp.fragment.BiciklFragment"
+        android:label="fragment_bicikl"
+        tools:layout="@layout/fragment_bicikl" >
+        <action
+            android:id="@+id/action_biciklFragment_to_messageFragment"
+            app:destination="@id/messageFragment" />
+        <action
+            android:id="@+id/action_biciklFragment_to_selectedBiciklFragment"
+            app:destination="@id/selectedBiciklFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.miooapp.fragment.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" >
+        <action
+            android:id="@+id/action_messageFragment_to_personFragment"
+            app:destination="@id/personFragment" />
+
+        <argument
+            android:name="user"
+            app:argType="com.example.miooapp.model.User[]" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/personFragment"
+        android:name="com.example.miooapp.fragment.PersonFragment"
+        android:label="fragment_person"
+        tools:layout="@layout/fragment_person" >
+
+        <action
+            android:id="@+id/action_personFragment_to_biciklFragment"
+            app:destination="@id/biciklFragment" />
+        <action
+            android:id="@+id/action_personFragment_to_selectedBiciklFragment"
+            app:destination="@id/selectedBiciklFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectedBiciklFragment"
+        android:name="com.example.miooapp.SelectedBiciklFragment"
+        android:label="fragment_selected_bicikl"
+        tools:layout="@layout/fragment_selected_bicikl" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.miooapp.fragment.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_mapFragment_to_bookFragment"
+            app:destination="@id/bookFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatLogFragment"
+        android:name="com.example.miooapp.ChatLogFragment"
+        android:label="fragment_chat_log"
+        tools:layout="@layout/fragment_chat_log" />
+    <fragment
+        android:id="@+id/newMessageFragment"
+        android:name="com.example.miooapp.NewMessageFragment"
+        android:label="NewMessageFragment" >
+
+        <argument
+            android:name="chat"
+            app:nullable="true"
+            app:argType="com.example.miooapp.model.User" />
+
+    </fragment>
+</navigation>

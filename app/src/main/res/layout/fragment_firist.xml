@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/create_acount_imageView"
+        android:layout_width="227dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/logoo" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="    Were coming to you
+                    wherever  you are"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="             Book time and date in the app and well be
+    at your service within 48 hours"/>
+
+    <Button
+        android:id="@+id/create_acount_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_button"
+        android:text="Login"
+        android:textColor="#F5FAF9"
+        app:layout_constraintEnd_toEndOf="@+id/password_edittext_login"
+        app:layout_constraintStart_toStartOf="@+id/password_edittext_login"
+        app:layout_constraintTop_toBottomOf="@+id/password_edittext_login" />
+
+    <Button
+        android:id="@+id/create_acount_create_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/create_acount"
+        android:text="Create an accaount"
+        android:textColor="#F5FAF9" />
+
+
+
+
+</LinearLayout>

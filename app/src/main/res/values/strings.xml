@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MIooApp</string>
+
+    <string name="mapbox_access_token"></string>
+    <string name="current_location">curentLocation</string>
+    <string name="user_location_permission_explanation">userLocationPermision</string>
+    <string name="user_location_permission_not_granted">userLocationPermisionGranted</string>
+    <string name="tracking_enabled">trackinEnabled</string>
+    <string name="tracking_already_enabled">trackingAlreadyEnabled</string>
+
+    <string name="book_text">Our Bike Buddiesare here to take care of your bike at time and date that fits you best.</string>
+    <string name="menu_search">search</string>
+    <string name="Book_MIOO">bookMIOO</string>
+    <string name="My_bikes">my_bikes</string>
+    <string name="Messages">messages</string>
+    <string name="Profile">profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
